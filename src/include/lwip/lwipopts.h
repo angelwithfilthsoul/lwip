@@ -284,7 +284,7 @@
  
  /* ---------- PPP options ---------- */
  
- #define PPP_SUPPORT             1      /* Set > 0 for PPP */
+ #define PPP_SUPPORT             0      /* Set > 0 for PPP */
  
  #if PPP_SUPPORT
  
@@ -295,8 +295,8 @@
   * we're limited by the command line length so you need to modify the settings
   * in this file.
   */
- #define PPPOE_SUPPORT           1
- #define PPPOS_SUPPORT           1
+ #define PPPOE_SUPPORT           0
+ #define PPPOS_SUPPORT           0
  
  #define PAP_SUPPORT             1      /* Set > 0 for PAP. */
  #define CHAP_SUPPORT            1      /* Set > 0 for CHAP. */
